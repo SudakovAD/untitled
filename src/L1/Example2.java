@@ -2,9 +2,13 @@ package L1;
 
 public class Example2 {
     public static void main(String[] args) {
-        int num = 100;
-        System.out.println("num: " + num);
-        num = num * 2;
-        System.out.println("num * 2 = " + num);
+        try {
+            System.out.println("0");
+            System.out.println("1");
+            throw new RuntimeException("Непроверяемая ошибка");
+        } catch (Exception e) {
+            System.out.println("2 " + e);
+        }
+        System.out.println("3");
     }
 }
