@@ -1,5 +1,5 @@
-package L5;
-import java.util.Random;
+package L11.L5;
+
 public class Example43 {
     public static void main(String[] args) {
         MinMax minMax = new MinMax(5, 10);

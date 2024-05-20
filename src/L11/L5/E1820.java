@@ -1,4 +1,4 @@
-package L5;
+package L11.L5;
 import java.util.Scanner;
 public class E1820 {
 public static void main(String[] args) {

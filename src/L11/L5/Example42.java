@@ -1,4 +1,4 @@
-package L5;
+package L11.L5;
 
 import java.util.Random;
 public class Example42 {
